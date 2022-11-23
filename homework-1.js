@@ -48,9 +48,9 @@ console.log(area);
 
 */
 
-time = 2;
-speedOfFirst = 95;
-speedOfSecond = 114;
+let time = 2;
+let speedOfFirst = 95;
+let speedOfSecond = 114;
 
 const distance = (speedOfFirst * time) + (speedOfSecond * time)
 console.log(distance);
@@ -91,3 +91,4 @@ switch (true) {
         break;
     default : console.log("randomNumber больше 20, и меньше 50");
 }
+console.log(randomNumber);
